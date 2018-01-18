@@ -1,0 +1,216 @@
+{
+	"Goblin": {
+		"scores":{
+			"str": "8",
+			"dex": "14",
+			"con": "10",
+			"int": "10",
+			"wis": "8",
+			"cha": "8"
+		},
+		"hpmax": "2d6",
+		"ac": 15,
+		"xp": 50,
+		"attacks": [{
+			"name": "scimitar",
+			"attackRoll": "+4",
+			"defenceType": "ac",
+			"damageRoll": "1d6+2"},
+			{"name": "shortbow",
+			"attackRoll": "+4",
+			"defenceType": "ac",
+			"damageRoll": "1d6+2"}
+		]
+	},
+	"Kobold": {
+		"scores":{
+			"str": "7",
+			"dex": "16",
+			"con": "9",
+			"int": "8",
+			"wis": "7",
+			"cha": "8"
+		},
+		"hpmax": "3d6 - 3",
+		"ac": 13,
+		"xp": 50,
+		"attacks": [{
+			"name": "dagger",
+			"attackRoll": "+5",
+			"defenceType": "ac",
+			"damageRoll": "1d4+3"}
+		]
+	},
+	"Hobgoblin": {
+		"scores":{
+			"str": "13",
+			"dex": "12",
+			"con": "12",
+			"int": "10",
+			"wis": "10",
+			"cha": "9"
+		},
+		"hpmax": "2d8+2",
+		"ac": 18,
+		"xp": 100,
+		"attacks": [{
+			"name": "longsword",
+			"attackRoll": "+3",
+			"defenceType": "ac",
+			"damageRoll": "1d8+1"}
+		]
+	},
+	"Hobgoblin Captain": {
+		"scores":{
+			"str": "15",
+			"dex": "14",
+			"con": "14",
+			"int": "12",
+			"wis": "10",
+			"cha": "13"
+		},
+		"hpmax": "6d8+12",
+		"ac": 17,
+		"xp": 700,
+		"attacks": [{
+			"name": "greatsword",
+			"attackRoll": "+4",
+			"defenceType": "ac",
+			"damageRoll": "2d6+2"}
+		]
+	},
+	"Fluffy-Kitten": {
+		"scores":{
+			"str": "13",
+			"dex": "14",
+			"con": "14",
+			"int": "12",
+			"wis": "10",
+			"cha": "13"
+		},
+		"hpmax": "1000",
+		"ac": 200,
+		"xp": 0,
+		"attacks": [{
+			"name": "hammer",
+			"attackRoll": "+4",
+			"defenceType": "ac",
+			"damageRoll": "1d8+4"}
+		]
+	},
+	"Kindness": {
+		"scores":{
+			"str": "13",
+			"dex": "14",
+			"con": "14",
+			"int": "12",
+			"wis": "10",
+			"cha": "13"
+		},
+		"hpmax": "1000",
+		"ac": 200,
+		"xp": 0,
+		"attacks": [{
+			"name": "sword",
+			"attackRoll": "+4",
+			"defenceType": "ac",
+			"damageRoll": "1d6+2"}
+		]
+	},
+	"Gnoll": {
+		"scores":{
+			"str": "14",
+			"dex": "12",
+			"con": "11",
+			"int": "12",
+			"wis": "10",
+			"cha": "7"
+		},
+		"hpmax": "5d8",
+		"ac": 15,
+		"xp": 100,
+		"attacks": [{
+			"name": "bite",
+			"attackRoll": "+4",
+			"defenceType": "ac",
+			"damageRoll": "1d4+2"
+		},{
+			"name": "spear",
+			"attackRoll": "+4",
+			"defenceType": "ac",
+			"damageRoll": "1d8+2"}
+			]
+	},
+	"Gnoll Fang of Yeenoghu": {
+		"scores":{
+			"str": "14",
+			"dex": "12",
+			"con": "11",
+			"int": "12",
+			"wis": "10",
+			"cha": "7"
+		},
+		"hpmax": "5d8",
+		"ac": 15,
+		"xp": 100,
+		"attacks": [{
+			"name": "bite",
+			"attackRoll": "+5",
+			"defenceType": "ac",
+			"damageRoll": "1d6+3"
+		},{
+			"name": "claw",
+			"attackRoll": "+5",
+			"defenceType": "ac",
+			"damageRoll": "1d8+3"}
+			]
+	},
+	"Lizardfolk": {
+		"scores":{
+			"str": "14",
+			"dex": "12",
+			"con": "11",
+			"int": "12",
+			"wis": "10",
+			"cha": "7"
+		},
+		"hpmax": "4d8+4",
+		"ac": 15,
+		"xp": 100,
+		"attacks": [{
+			"name": "bite",
+			"attackRoll": "+4",
+			"defenceType": "ac",
+			"damageRoll": "1d6+2"
+		},{
+			"name": "club",
+			"attackRoll": "+4",
+			"defenceType": "ac",
+			"damageRoll": "1d6+2"}
+			]
+	},
+	"Lizard King": {
+		"scores":{
+			"str": "14",
+			"dex": "12",
+			"con": "11",
+			"int": "12",
+			"wis": "10",
+			"cha": "7"
+		},
+		"hpmax": "12d8+24",
+		"ac": 15,
+		"xp": 1100,
+		"attacks": [{
+			"name": "bite",
+			"attackRoll": "+5",
+			"defenceType": "ac",
+			"damageRoll": "1d6+3"
+		},{
+			"name": "claws",
+			"attackRoll": "+5",
+			"defenceType": "ac",
+			"damageRoll": "1d4+3"}
+		]
+	}
+}
