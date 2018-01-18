@@ -4,7 +4,8 @@
   "description": "A bot that manages battles for D&D",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/**.spec.js"
+    "test": "mocha **/**.spec.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^11.2.1",
