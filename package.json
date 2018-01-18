@@ -1,11 +1,13 @@
 {
-  "name": "RvBBattlebot",
+  "name": "battlebot",
   "version": "1.0.0",
-  "description": "Helps with battles in D&D",
-  "main": "bot.js",
-  "author": "Sam Nolan",
+  "description": "A bot that manages battles for D&D",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/**.spec.js"
+  },
   "dependencies": {
-    "battlebot": "file:local_modules/battlebot",
+    "discord.js": "^11.2.1",
     "lodash": "^4.17.4",
     "winston": "^2.4.0"
   },
@@ -14,7 +16,6 @@
     "mocha": "^4.0.1",
     "nyc": "^11.3.0"
   },
-  "scripts": {
-    "test": "nyc mocha **/**.spec.js"
-  }
+  "author": "Sam Nolan",
+  "license": "MIT"
 }

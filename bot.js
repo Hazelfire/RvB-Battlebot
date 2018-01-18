@@ -1,7 +1,7 @@
 var Discord = require('discord.js');
 var logger = require('winston');
 var auth = require('./auth.json');
-var BattleBot = require('battlebot');
+var BattleBot = require('./lib/battlebot');
 var _ = require("lodash");
 
 const bot = new Discord.Client();
