@@ -1,0 +1,8 @@
+# What is needed to refactor the RvB Battlebot.
+The battlebot code is horrific. Why? Just look at commands.js which does a billion seperate things as well as npc/player attacks which are basically copies of each other
+
+Improvements:
+ - Make a parent to the NPC/Player classes
+ - Refactor the attack method into multiple methods
+ - Seperate the commands into different files
+ 
